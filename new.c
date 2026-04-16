@@ -16,8 +16,7 @@ int main() {
     printf("--- Premium Plan Members ---\n\n");
 
     /* Open the file created by the first partner */
-    fp = fopen("gym.txt", "r");
-
+    fp = fopen("gym1.txt", "r");
     if (fp == NULL) {
         printf("Error: Could not open gym.txt. Make sure Partner 1 ran their code first!\n");
     }

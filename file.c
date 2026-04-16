@@ -17,7 +17,7 @@ void main() {
     clrscr();
     printf("--- Members Joined After 2025-01-01 ---\n\n");
 
-    fp = fopen("gym.txt", "r");
+    fp = fopen("gym1.txt", "r");
 
     if (fp == NULL) {
         printf("Error: gym.txt not found!\n");

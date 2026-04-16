@@ -12,7 +12,7 @@ struct Member {
 void main() {
     FILE *fp;
     int n, i;
-    fp = fopen("gym.txt", "w");
+    fp = fopen("gym1.txt", "w");
     printf("--- GYM ENTRY SYSTEM ---\n");
     printf("Enter number of members: ");
     scanf("%d", &n);
